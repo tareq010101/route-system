@@ -29,3 +29,14 @@ It assigns drivers to routes based on availability and ensures each driver handl
 1. Clone the repo:
 ```bash
 git clone https://github.com/tareq010101/route-system.git
+```
+2. Install dependencies:
+cd route-system
+npm install
+3. 
+Make sure MongoDB is running locally (default port 27017)
+4. Create a .env file in the root directory:
+DATABASE=mongodb://127.0.0.1:27017/TransportDRB
+PORT=4000
+5. npm start
+
