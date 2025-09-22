@@ -38,5 +38,6 @@ Make sure MongoDB is running locally (default port 27017)
 4. Create a .env file in the root directory:
 DATABASE=mongodb://127.0.0.1:27017/TransportDRB
 PORT=4000
+
 5. npm start
 
